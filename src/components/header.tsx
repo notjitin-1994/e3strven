@@ -24,11 +24,10 @@ export function Header() {
     <>
       <header className="w-full bg-background/90 backdrop-blur-xl border-b border-border z-50 sticky top-0 transition-colors duration-400 shadow-[0_1px_0_0_rgba(0,0,0,0.02)]">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="group flex items-center gap-3 relative z-[60]">
-            <span className="font-display text-2xl tracking-tight text-primary transition-colors duration-400">
-              E3 <span className="font-display-italic text-foreground transition-colors duration-400">Strategic Ventures</span>
-            </span>
-          </Link>
+            <Link href="/" className="flex items-center gap-2 group relative z-[60]">
+              <img src="/assets/logo-black.png" alt="E3 Strategic Ventures" className="h-10 w-auto dark:hidden object-contain transition-transform duration-500 group-hover:scale-105" />
+              <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-10 w-auto hidden dark:block object-contain transition-transform duration-500 group-hover:scale-105" />
+            </Link>
           
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8 text-[13px] font-medium uppercase tracking-[0.1em]">
