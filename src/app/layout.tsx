@@ -75,8 +75,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="border-t border-border pt-12 flex flex-col items-center">
                 
                 <Link href="/" className="flex items-center gap-2 group mb-8">
-                  <img src="/assets/logo-black.png" alt="E3 Strategic Ventures" className="h-12 w-auto dark:hidden object-contain transition-transform duration-500 group-hover:scale-105" />
-                  <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-12 w-auto hidden dark:block object-contain transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-12 w-auto dark:hidden object-contain transition-transform duration-500 group-hover:scale-105" />
+                  <img src="/assets/logo-black.png" alt="E3 Strategic Ventures" className="h-12 w-auto hidden dark:block object-contain transition-transform duration-500 group-hover:scale-105" />
                 </Link>
 
                 <div className="w-full flex flex-col md:flex-row justify-between items-center gap-6 mt-4 text-xs uppercase tracking-widest text-muted-foreground">
