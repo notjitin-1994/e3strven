@@ -40,14 +40,17 @@ export function Header() {
             </div>
           </nav>
 
-          {/* Mobile Menu Toggle */}
-          <button 
-            className="lg:hidden relative z-[60] p-2 -mr-2 text-foreground"
-            onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Toggle Menu"
-          >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile Menu Toggle & Theme Toggle */}
+          <div className="lg:hidden flex items-center gap-4 relative z-[60]">
+            <ThemeToggle />
+            <button 
+              className="p-2 -mr-2 text-foreground"
+              onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle Menu"
+            >
+              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
       </header>
 
@@ -72,10 +75,6 @@ export function Header() {
           </button>
         </nav>
         
-        <div className="mt-16 pt-8 border-t border-border flex items-center justify-between">
-          <span className="text-sm uppercase tracking-widest text-muted-foreground font-medium">Theme</span>
-          <ThemeToggle />
-        </div>
       </div>
       <ContactModal isOpen={isContactOpen} onClose={() => setContactOpen(false)} />
     </>

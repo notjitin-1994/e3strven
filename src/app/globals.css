@@ -17,10 +17,10 @@
   --color-paper: var(--paper);
   --color-sunken: var(--sunken);
 
-  --font-display: "Bodoni Moda", serif;
-  --font-display-italic: "Bodoni Moda", serif;
+  --font-display: var(--font-bodoni);
+  --font-display-italic: var(--font-bodoni);
   
-  --font-sans: "Inter", sans-serif;
+  --font-sans: var(--font-inter);
 
   --animate-fade-in: fade-in 0.4s ease-out forwards;
   --animate-slide-up: slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
