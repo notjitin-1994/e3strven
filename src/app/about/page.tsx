@@ -19,7 +19,7 @@ export default function AboutPage() {
             <div className="md:w-2/3">
               <AnimatedStaggerChild className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">Our Identity</AnimatedStaggerChild>
               <AnimatedStaggerChild>
-                <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-medium leading-[1.05] tracking-tight text-foreground transition-colors duration-400">
+                <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-[1.05] tracking-tight text-foreground transition-colors duration-400">
                   Architects of<br />Human Potential.
                 </h1>
               </AnimatedStaggerChild>
@@ -34,11 +34,11 @@ export default function AboutPage() {
       </section>
 
       {/* Vision & Mission: Dark Cinematic Split */}
-      <AnimatedSection className="py-32 bg-paper transition-colors duration-400 relative overflow-hidden">
+      <AnimatedSection className="py-16 sm:py-24 md:py-32 bg-paper transition-colors duration-400 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 relative z-10">
           <div className="border-t border-border pt-12 flex flex-col">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">01 &mdash; Vision</span>
-            <h2 className="font-display text-4xl lg:text-5xl mb-8 text-foreground transition-colors duration-400">
+            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground transition-colors duration-400">
               The Global Benchmark.
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed transition-colors duration-400">
@@ -47,7 +47,7 @@ export default function AboutPage() {
           </div>
           <div className="border-t border-border pt-12 flex flex-col">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">02 &mdash; Mission</span>
-            <h2 className="font-display text-4xl lg:text-5xl mb-8 text-foreground transition-colors duration-400">
+            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground transition-colors duration-400">
               Harmonizing Connection.
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed transition-colors duration-400">
@@ -58,7 +58,7 @@ export default function AboutPage() {
       </AnimatedSection>
 
       {/* The Founder: Photographic Shift */}
-      <AnimatedSection className="py-32 bg-background transition-colors duration-400 border-y border-border">
+      <AnimatedSection className="py-16 sm:py-24 md:py-32 bg-background transition-colors duration-400 border-y border-border">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-16 items-center">
           <div className="md:w-5/12">
             {/* Founder Image */}
@@ -74,8 +74,8 @@ export default function AboutPage() {
           </div>
           <div className="md:w-7/12">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">The Founder</span>
-            <h2 className="font-display text-5xl md:text-7xl mb-6 text-foreground transition-colors duration-400">Riyas Hakkim</h2>
-            <p className="font-display-italic text-3xl text-muted-foreground mb-10 transition-colors duration-400">
+            <h2 className="font-display text-4xl sm:text-6xl md:text-7xl mb-6 text-foreground transition-colors duration-400">Riyas Hakkim</h2>
+            <p className="font-display-italic text-2xl md:text-3xl text-muted-foreground mb-10 transition-colors duration-400">
               India's First Emotional Sales Leadership Coach
             </p>
             <div className="space-y-6 text-foreground/80 leading-relaxed max-w-prose text-lg">
@@ -91,7 +91,7 @@ export default function AboutPage() {
       </AnimatedSection>
 
       {/* The Culture Boardroom */}
-      <AnimatedSection className="relative py-48 bg-background transition-colors duration-400 border-b border-border overflow-hidden">
+      <AnimatedSection className="relative py-24 sm:py-32 md:py-48 bg-background transition-colors duration-400 border-b border-border overflow-hidden">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/assets/about-culture.jpg" alt="Leadership Boardroom" className="w-full h-full object-cover opacity-100 dark:opacity-60 transition-all duration-1000" />
@@ -99,7 +99,7 @@ export default function AboutPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <div className="max-w-xl p-8 md:p-12 rounded-3xl bg-background/80 dark:bg-background/60 backdrop-blur-xl border border-border shadow-2xl transition-all duration-500">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">Our Culture</span>
-            <h2 className="font-display text-4xl md:text-6xl text-foreground mb-8 transition-colors duration-400">
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground mb-8 transition-colors duration-400">
               Driven by collective intelligence.
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">

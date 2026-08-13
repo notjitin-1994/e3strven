@@ -33,13 +33,13 @@ export function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: ()
   };
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 md:p-12 animate-fade-in bg-background/80 backdrop-blur-xl">
+    <div className="fixed inset-0 z-[100] flex items-end md:items-center justify-center p-0 md:p-12 animate-fade-in bg-background/80 backdrop-blur-xl">
       <div 
         className="absolute inset-0 z-0" 
         onClick={onClose} 
         aria-hidden="true"
       />
-      <div className="relative z-10 w-full max-w-2xl bg-card border border-border shadow-2xl overflow-hidden rounded-3xl max-h-[100dvh] flex flex-col animate-slide-up">
+      <div className="relative z-10 w-full max-w-2xl bg-card border border-border shadow-2xl overflow-hidden rounded-t-3xl md:rounded-3xl rounded-b-none md:rounded-b-3xl max-h-[90dvh] flex flex-col animate-slide-up">
         {/* Header */}
         <div className="flex items-center justify-between p-6 md:p-8 border-b border-border shrink-0 bg-card">
           <div>

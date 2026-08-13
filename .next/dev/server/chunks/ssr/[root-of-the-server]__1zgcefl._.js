@@ -70,7 +70,7 @@ function HomePage() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$animated$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AnimatedStaggerChild"], {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "font-display text-6xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400",
+                                    className: "font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400",
                                     children: [
                                         "Strategic ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -153,14 +153,14 @@ function HomePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$animated$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AnimatedSection"], {
                 id: "about",
-                className: "py-24 bg-paper transition-colors duration-400",
+                className: "py-16 sm:py-24 md:py-32 bg-paper transition-colors duration-400",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-6",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-12 gap-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "md:col-span-8 bg-card p-12 rounded-2xl flex flex-col justify-center border border-border transition-colors duration-400",
+                                className: "md:col-span-8 bg-card p-8 md:p-12 rounded-2xl flex flex-col justify-center border border-border transition-colors duration-400",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-[11px] font-medium uppercase tracking-widest text-primary mb-6 block",
@@ -171,7 +171,7 @@ function HomePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "font-display text-4xl leading-[1.2] text-foreground mb-6 transition-colors duration-400",
+                                        className: "font-display text-3xl md:text-4xl leading-[1.2] text-foreground mb-6 transition-colors duration-400",
                                         children: "A unified ecosystem driving exponential growth through emotional connection and strategic precision."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
@@ -214,7 +214,7 @@ function HomePage() {
                                 className: "md:col-span-4 flex flex-col gap-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-primary text-primary-foreground p-8 rounded-2xl flex-1 flex flex-col justify-between transition-colors duration-400",
+                                        className: "bg-primary text-primary-foreground p-6 md:p-8 rounded-2xl flex-1 flex flex-col justify-between transition-colors duration-400",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[11px] font-medium uppercase tracking-widest mb-4 block opacity-80",
@@ -225,7 +225,7 @@ function HomePage() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "font-display text-6xl mb-2",
+                                                className: "font-display text-5xl md:text-6xl mb-2",
                                                 children: "4+"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
@@ -247,7 +247,7 @@ function HomePage() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-sunken p-8 rounded-2xl flex-1 flex flex-col justify-between border border-border transition-colors duration-400",
+                                        className: "bg-sunken p-6 md:p-8 rounded-2xl flex-1 flex flex-col justify-between border border-border transition-colors duration-400",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-[11px] font-medium uppercase tracking-widest text-primary mb-4 block",
@@ -303,12 +303,12 @@ function HomePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$animated$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AnimatedSection"], {
                 id: "group",
-                className: "py-32 bg-background transition-colors duration-400",
+                className: "py-16 sm:py-24 md:py-32 bg-background transition-colors duration-400",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto px-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "font-display text-4xl md:text-5xl mb-24 text-foreground tracking-tight transition-colors duration-400 text-center",
+                            className: "font-display text-4xl md:text-5xl mb-12 md:mb-24 text-foreground tracking-tight transition-colors duration-400 text-center",
                             children: "The Ecosystem"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
@@ -322,7 +322,7 @@ function HomePage() {
                                     href: "https://e3globalzone.com/",
                                     target: "_blank",
                                     rel: "noreferrer",
-                                    className: "group col-span-1 md:col-span-8 relative overflow-hidden rounded-3xl min-h-[400px] flex flex-col justify-end p-10 border border-border transition-colors duration-400",
+                                    className: "group col-span-1 md:col-span-8 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[400px] flex flex-col justify-end p-6 md:p-10 border border-border transition-colors duration-400",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 z-0",
@@ -383,14 +383,14 @@ function HomePage() {
                                     href: "https://riyashakkim.com/",
                                     target: "_blank",
                                     rel: "noreferrer",
-                                    className: "group col-span-1 md:col-span-4 relative overflow-hidden rounded-3xl min-h-[400px] flex flex-col p-10 border border-border transition-colors duration-400",
+                                    className: "group col-span-1 md:col-span-4 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[400px] flex flex-col p-6 md:p-10 border border-border transition-colors duration-400",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 z-0",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/riyas-portfolio.png",
                                                 alt: "Riyas Hakkim Background",
-                                                className: "w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80"
+                                                className: "w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105 opacity-100 dark:opacity-80"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 99,
@@ -405,7 +405,7 @@ function HomePage() {
                                             className: "relative z-10 flex flex-col h-full justify-between",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "h-20 w-20 rounded-lg bg-[#000000] border border-white/10 shadow-xl p-3 flex items-center justify-center grayscale group-hover:grayscale-0 transition-all duration-500",
+                                                    className: "h-16 w-16 md:h-20 md:w-20 rounded-lg bg-[#000000] border border-white/10 shadow-xl p-3 flex items-center justify-center md:grayscale md:group-hover:grayscale-0 transition-all duration-500",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                         src: "/assets/riyas-hakkim.jpeg",
                                                         alt: "Riyas Hakkim Logo",
@@ -469,14 +469,14 @@ function HomePage() {
                                     href: "https://e3mediaevents.com/",
                                     target: "_blank",
                                     rel: "noreferrer",
-                                    className: "group col-span-1 md:col-span-7 relative overflow-hidden rounded-3xl min-h-[350px] flex flex-col justify-end p-10 border border-border transition-colors duration-400",
+                                    className: "group col-span-1 md:col-span-7 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[350px] flex flex-col justify-end p-6 md:p-10 border border-border transition-colors duration-400",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 z-0",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/assets/media-bg.jpg",
                                                 alt: "Media",
-                                                className: "w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80"
+                                                className: "w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105 opacity-100 dark:opacity-80"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.tsx",
                                                 lineNumber: 118,
@@ -553,7 +553,7 @@ function HomePage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "group col-span-1 md:col-span-5 relative overflow-hidden rounded-3xl min-h-[350px] flex flex-col p-10 border border-border transition-colors duration-400 bg-sunken cursor-default",
+                                    className: "group col-span-1 md:col-span-5 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[350px] flex flex-col p-6 md:p-10 border border-border transition-colors duration-400 bg-sunken cursor-default",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 z-0",

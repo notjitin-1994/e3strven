@@ -19,7 +19,7 @@ export default function HomePage() {
         <AnimatedStaggerParent delay={0.2} className="relative z-10 text-center px-6 max-w-5xl mx-auto flex flex-col items-center">
           <AnimatedStaggerChild className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">The Ecosystem</AnimatedStaggerChild>
           <AnimatedStaggerChild>
-            <h1 className="font-display text-6xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400">
+            <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400">
               Strategic <br /> <span className="font-display-italic text-primary">Ventures.</span>
             </h1>
           </AnimatedStaggerChild>
@@ -40,12 +40,12 @@ export default function HomePage() {
       </section>
 
       {/* Hub About & Stats Bento */}
-      <AnimatedSection id="about" className="py-24 bg-paper transition-colors duration-400">
+      <AnimatedSection id="about" className="py-16 sm:py-24 md:py-32 bg-paper transition-colors duration-400">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-            <div className="md:col-span-8 bg-card p-12 rounded-2xl flex flex-col justify-center border border-border transition-colors duration-400">
+            <div className="md:col-span-8 bg-card p-8 md:p-12 rounded-2xl flex flex-col justify-center border border-border transition-colors duration-400">
               <span className="text-[11px] font-medium uppercase tracking-widest text-primary mb-6 block">The Hub</span>
-              <h2 className="font-display text-4xl leading-[1.2] text-foreground mb-6 transition-colors duration-400">
+              <h2 className="font-display text-3xl md:text-4xl leading-[1.2] text-foreground mb-6 transition-colors duration-400">
                 A unified ecosystem driving exponential growth through emotional connection and strategic precision.
               </h2>
               <p className="text-muted-foreground text-sm leading-relaxed max-w-prose mb-8 transition-colors duration-400">
@@ -57,12 +57,12 @@ export default function HomePage() {
             </div>
             
             <div className="md:col-span-4 flex flex-col gap-6">
-              <div className="bg-primary text-primary-foreground p-8 rounded-2xl flex-1 flex flex-col justify-between transition-colors duration-400">
+              <div className="bg-primary text-primary-foreground p-6 md:p-8 rounded-2xl flex-1 flex flex-col justify-between transition-colors duration-400">
                 <span className="text-[11px] font-medium uppercase tracking-widest mb-4 block opacity-80">Our Footprint</span>
-                <p className="font-display text-6xl mb-2">4+</p>
+                <p className="font-display text-5xl md:text-6xl mb-2">4+</p>
                 <p className="text-sm font-medium opacity-90">Specialized Group Companies</p>
               </div>
-              <div className="bg-sunken p-8 rounded-2xl flex-1 flex flex-col justify-between border border-border transition-colors duration-400">
+              <div className="bg-sunken p-6 md:p-8 rounded-2xl flex-1 flex flex-col justify-between border border-border transition-colors duration-400">
                 <span className="text-[11px] font-medium uppercase tracking-widest text-primary mb-4 block">Our Impact</span>
                 <p className="font-display text-4xl mb-2 text-foreground">Global</p>
                 <p className="text-muted-foreground text-sm">Transforming businesses across borders.</p>
@@ -73,14 +73,14 @@ export default function HomePage() {
       </AnimatedSection>
 
       {/* The Group Bento Grid */}
-      <AnimatedSection id="group" className="py-32 bg-background transition-colors duration-400">
+      <AnimatedSection id="group" className="py-16 sm:py-24 md:py-32 bg-background transition-colors duration-400">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="font-display text-4xl md:text-5xl mb-24 text-foreground tracking-tight transition-colors duration-400 text-center">The Ecosystem</h2>
+          <h2 className="font-display text-4xl md:text-5xl mb-12 md:mb-24 text-foreground tracking-tight transition-colors duration-400 text-center">The Ecosystem</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
             
             {/* E3 Global - Large Card */}
-            <a href="https://e3globalzone.com/" target="_blank" rel="noreferrer" className="group col-span-1 md:col-span-8 relative overflow-hidden rounded-3xl min-h-[400px] flex flex-col justify-end p-10 border border-border transition-colors duration-400">
+            <a href="https://e3globalzone.com/" target="_blank" rel="noreferrer" className="group col-span-1 md:col-span-8 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[400px] flex flex-col justify-end p-6 md:p-10 border border-border transition-colors duration-400">
               <div className="absolute inset-0 z-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/assets/bg-consulting.jpg" alt="Consulting" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80" />
@@ -93,13 +93,13 @@ export default function HomePage() {
             </a>
 
             {/* Riyas Hakkim - Tall Card */}
-            <a href="https://riyashakkim.com/" target="_blank" rel="noreferrer" className="group col-span-1 md:col-span-4 relative overflow-hidden rounded-3xl min-h-[400px] flex flex-col p-10 border border-border transition-colors duration-400">
+            <a href="https://riyashakkim.com/" target="_blank" rel="noreferrer" className="group col-span-1 md:col-span-4 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[400px] flex flex-col p-6 md:p-10 border border-border transition-colors duration-400">
               <div className="absolute inset-0 z-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/riyas-portfolio.png" alt="Riyas Hakkim Background" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80" />
+                <img src="/assets/riyas-portfolio.png" alt="Riyas Hakkim Background" className="w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105 opacity-100 dark:opacity-80" />
               </div>
               <div className="relative z-10 flex flex-col h-full justify-between">
-                <div className="h-20 w-20 rounded-lg bg-[#000000] border border-white/10 shadow-xl p-3 flex items-center justify-center grayscale group-hover:grayscale-0 transition-all duration-500">
+                <div className="h-16 w-16 md:h-20 md:w-20 rounded-lg bg-[#000000] border border-white/10 shadow-xl p-3 flex items-center justify-center md:grayscale md:group-hover:grayscale-0 transition-all duration-500">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/assets/riyas-hakkim.jpeg" alt="Riyas Hakkim Logo" className="w-full h-full object-contain rounded-sm" />
                 </div>
@@ -112,10 +112,10 @@ export default function HomePage() {
             </a>
 
             {/* E3 Media - Wide Card */}
-            <a href="https://e3mediaevents.com/" target="_blank" rel="noreferrer" className="group col-span-1 md:col-span-7 relative overflow-hidden rounded-3xl min-h-[350px] flex flex-col justify-end p-10 border border-border transition-colors duration-400">
+            <a href="https://e3mediaevents.com/" target="_blank" rel="noreferrer" className="group col-span-1 md:col-span-7 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[350px] flex flex-col justify-end p-6 md:p-10 border border-border transition-colors duration-400">
               <div className="absolute inset-0 z-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/media-bg.jpg" alt="Media" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80" />
+                <img src="/assets/media-bg.jpg" alt="Media" className="w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105 opacity-100 dark:opacity-80" />
               </div>
               <div className="relative z-10 flex flex-col md:flex-row items-start md:items-end justify-between gap-8 w-full p-6 md:p-8 rounded-2xl bg-background/80 dark:bg-background/50 backdrop-blur-xl border border-border shadow-2xl transition-all duration-500 group-hover:bg-background/95 mt-auto">
                 <div>
@@ -131,7 +131,7 @@ export default function HomePage() {
             </a>
 
             {/* Humans Hub - Square Card (Coming Soon) */}
-            <div className="group col-span-1 md:col-span-5 relative overflow-hidden rounded-3xl min-h-[350px] flex flex-col p-10 border border-border transition-colors duration-400 bg-sunken cursor-default">
+            <div className="group col-span-1 md:col-span-5 relative overflow-hidden rounded-3xl min-h-[320px] md:min-h-[350px] flex flex-col p-6 md:p-10 border border-border transition-colors duration-400 bg-sunken cursor-default">
               <div className="absolute inset-0 z-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/assets/bg-education.jpg" alt="Education" className="w-full h-full object-cover opacity-20 mix-blend-multiply dark:mix-blend-screen transition-all duration-700 grayscale" />

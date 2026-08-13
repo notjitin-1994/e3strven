@@ -27,13 +27,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
 
           {/* Global Premium Footer */}
-          <footer id="contact" className="bg-background pt-32 pb-12 border-t border-border overflow-hidden">
+          <footer id="contact" className="bg-background pt-16 sm:pt-24 md:pt-32 pb-12 border-t border-border overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
               
               <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 mb-24">
                 <div className="md:col-span-6 flex flex-col justify-between">
                   <div>
-                    <h2 className="font-display text-4xl mb-6 text-foreground max-w-sm">
+                    <h2 className="font-display text-3xl md:text-4xl mb-6 text-foreground max-w-sm">
                       Ready to scale your emotional impact?
                     </h2>
                     <a href="mailto:Info@e3strategicventures.com" className="group inline-flex items-center gap-3 text-sm font-medium uppercase tracking-widest text-primary hover:text-foreground transition-colors duration-300">
