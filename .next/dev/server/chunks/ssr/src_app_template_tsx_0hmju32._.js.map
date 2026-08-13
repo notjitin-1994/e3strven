@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/jitin/e3-strategic-ventures/src/app/template.tsx"],"sourcesContent":["\"use client\";\nimport { motion } from \"framer-motion\";\n\nexport default function Template({ children }: { children: React.ReactNode }) {\n  return (\n    <motion.div\n      initial={{ opacity: 0, filter: \"blur(12px)\", y: 15 }}\n      animate={{ opacity: 1, filter: \"blur(0px)\", y: 0 }}\n      exit={{ opacity: 0, filter: \"blur(12px)\", y: -15 }}\n      transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}\n    >\n      {children}\n    </motion.div>\n  );\n}\n"],"names":["Template","children","div","initial","opacity","filter","y","animate","exit","transition","duration","ease"],"mappings":";;;;;AACA;AADA;;;AAGe,SAASA,SAAS,EAAEC,QAAQ,EAAiC;IAC1E,qBACE,8OAAC,oMAAM,CAACC,GAAG;QACTC,SAAS;YAAEC,SAAS;YAAGC,QAAQ;YAAcC,GAAG;QAAG;QACnDC,SAAS;YAAEH,SAAS;YAAGC,QAAQ;YAAaC,GAAG;QAAE;QACjDE,MAAM;YAAEJ,SAAS;YAAGC,QAAQ;YAAcC,GAAG,CAAC;QAAG;QACjDG,YAAY;YAAEC,UAAU;YAAKC,MAAM;gBAAC;gBAAM;gBAAG;gBAAK;aAAE;QAAC;kBAEpDV;;;;;;AAGP"}}]
+}

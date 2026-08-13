@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-paper: var(--paper);
+  --color-sunken: var(--sunken);
+
+  --font-display: "Bodoni Moda", serif;
+  --font-display-italic: "Bodoni Moda", serif;
+  
+  --font-sans: "Inter", sans-serif;
+
+  --animate-fade-in: fade-in 0.4s ease-out forwards;
+  --animate-slide-up: slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+:root {
+  --background: #fcfcfc;
+  --foreground: #050505;
+  --card: #ffffff;
+  --card-foreground: #050505;
+  --popover: #ffffff;
+  --popover-foreground: #050505;
+  --primary: #990000;
+  --primary-foreground: #ffffff;
+  --muted: #f4f4f5;
+  --muted-foreground: #666666;
+  --border: #eaeaea;
+  --input: #eaeaea;
+  --ring: #990000;
+  --paper: #f4f4f5;
+  --sunken: #ebebeb;
+}
+
+.dark {
+  --background: #050505;
+  --foreground: #fcfcfc;
+  --card: #0a0a0a;
+  --card-foreground: #fcfcfc;
+  --popover: #0a0a0a;
+  --popover-foreground: #fcfcfc;
+  --primary: #ff3333;
+  --primary-foreground: #000000;
+  --muted: #111111;
+  --muted-foreground: #a1a1aa;
+  --border: #1a1a1a;
+  --input: #1a1a1a;
+  --ring: #ff3333;
+  --paper: #0a0a0a;
+  --sunken: #111111;
+}
+
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
