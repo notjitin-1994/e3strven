@@ -1,12 +1,10 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedSection, AnimatedStaggerParent, AnimatedStaggerChild } from "@/components/animated-section";
-import { LoadingScreen } from "@/components/loading-screen";
 
 export default function HomePage() {
   return (
     <>
-      <LoadingScreen />
       {/* Hero Section */}
       {/* Hero Section */}
       <section className="relative h-[100dvh] min-h-[700px] w-full flex items-center justify-center overflow-hidden bg-background">

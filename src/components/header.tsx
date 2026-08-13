@@ -25,8 +25,8 @@ export function Header() {
       <header className="w-full bg-background/90 backdrop-blur-xl border-b border-border z-50 sticky top-0 transition-colors duration-400 shadow-[0_1px_0_0_rgba(0,0,0,0.02)]">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 group relative z-[60]">
-              <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-10 w-auto dark:hidden object-contain transition-transform duration-500 group-hover:scale-105" />
-              <img src="/assets/logo-black.png" alt="E3 Strategic Ventures" className="h-10 w-auto hidden dark:block object-contain transition-transform duration-500 group-hover:scale-105" />
+              <img src="/assets/logo-black.png" alt="E3 Strategic Ventures" className="h-10 w-auto dark:hidden object-contain transition-transform duration-500 group-hover:scale-105" />
+              <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-10 w-auto hidden dark:block object-contain transition-transform duration-500 group-hover:scale-105" />
             </Link>
           
           {/* Desktop Nav */}
