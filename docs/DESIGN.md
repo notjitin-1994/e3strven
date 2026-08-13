@@ -6,28 +6,24 @@
 - **Dial Settings**: Variance (6/10 - Restrained asymmetric), Motion (3/10 - Highly constrained/Performance-first), Visual Density (3/10 - Airy/Typographic focus).
 - **Performance First**: Zero scroll-hijacking, complex physics, or heavy WebGL. The site must load instantly and render perfectly on low-end mobile devices and high-end desktops alike.
 
-## 2. Color Palette (The Siena Films Editorial)
-The color system is extracted directly from the E3 Media brand guidelines, utilizing a warm editorial cream combined with a strong, highly-contrasting maroon.
+## 2. Color Palette (The E3 Gold Standard)
+The color system is extracted directly from the E3 Strategic Ventures brand book, utilizing a luxurious dark tone combined with gold gradients for contrast and emphasis.
 
 ### Light Mode
-- **Body Background**: Warm Cream / Off-White (`#FAF8F4`)
-- **Elevated Surfaces (Cards)**: Pure White (`#FFFFFF`) to pop against the warm background.
-- **Sunken Surfaces**: Deeper Cream (`#ECE7DC`)
-- **Primary Text**: Near-Black Ink (`#0A0A0A`)
-- **Body Text**: Dark Gray (`#1A1A1A`)
-- **Accent (CTAs, Highlights)**: Brand Maroon (`#990000`)
-- **Accent on Dark**: Bright Red / Gold (`#FF3333`)
+- **Body Background**: Off-White (`#fcfcfc`)
+- **Elevated Surfaces (Cards)**: Pure White (`#ffffff`)
+- **Primary Text**: E3 Dark (`#231F20`)
+- **Accent (CTAs, Highlights)**: E3 Gold (`#C0923B`)
 
 ### Dark Mode
-- **Body Background**: Deep Ink / Near Black (`#0A0A0A` to `#030303`)
-- **Elevated Surfaces**: Lifted Dark (`#141414`)
-- **Primary Text**: Cream Text (`#FFFFFF`)
-- **Accent (CTAs, Highlights)**: Brand Maroon Light (`#CC3333`) for AAA accessibility against dark backgrounds.
+- **Body Background**: E3 Dark (`#231F20`)
+- **Elevated Surfaces**: Raised Dark (`#2e292a`)
+- **Primary Text**: Pure White (`#fcfcfc`)
+- **Accent (CTAs, Highlights)**: E3 Light Gold (`#D1AA5B`) for AAA accessibility against dark backgrounds.
 
 ## 3. Typography
-We employ a "Typographic Hero" approach, relying on font contrast rather than imagery to establish authority.
-- **Display Font (Headlines)**: `Bodoni Moda` (Variable). High-contrast Didone serif conveying luxury, heritage, and authority.
-- **Sans Font (Body, UI, Nav, CTAs)**: `Inter` (Variable). Clean, modern grotesque ensuring maximum digital legibility.
+- **Display Font (Headlines)**: `Satoshi` (Variable). High-impact, modern geometric sans-serif for commanding headlines.
+- **Sans Font (Body, UI, Nav, CTAs)**: `Montserrat`. Clean, highly legible geometric sans ensuring maximum digital readability.
 
 ## 4. Layout & UI Guidelines
 - **No Eyebrow Slop**: Avoid tiny uppercase tracked labels above section headers. Let the Bodoni Moda headlines stand on their own.
