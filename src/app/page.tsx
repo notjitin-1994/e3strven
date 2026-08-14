@@ -18,10 +18,9 @@ export default function HomePage() {
            <div className="w-[80vw] h-[60vh] max-w-4xl bg-background/80 dark:bg-background/60 blur-[120px] rounded-full" />
         </div>
         <AnimatedStaggerParent delay={0.2} className="relative z-10 text-center px-6 max-w-5xl mx-auto flex flex-col items-center">
-          <AnimatedStaggerChild className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">The Ecosystem</AnimatedStaggerChild>
           <AnimatedStaggerChild>
             <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400">
-              Strategic <br /> <span className="font-display-italic text-primary">Ventures.</span>
+              E3 Strategic <br /> <span className="font-display-italic text-primary">Ventures.</span>
             </h1>
           </AnimatedStaggerChild>
           <AnimatedStaggerChild>
@@ -86,10 +85,15 @@ export default function HomePage() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/assets/bg-consulting.jpg" alt="Consulting" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80" />
               </div>
-              <div className="relative z-10 mt-auto w-full md:w-auto p-6 md:p-8 rounded-2xl bg-black/80 dark:bg-black/60 backdrop-blur-xl border border-white/10 shadow-2xl transition-all duration-500 group-hover:bg-black/90">
-                <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-3 block">Consulting</span>
-                <h3 className="font-display text-3xl text-white mb-4">E3 Global Zone</h3>
-                <p className="text-white/70 text-sm leading-relaxed max-w-sm">High-level strategic consulting and business advisory for organizations looking to scale and dominate their markets.</p>
+              <div className="relative z-10 mt-auto w-full md:w-auto p-6 md:p-8 rounded-2xl bg-black/80 dark:bg-black/60 backdrop-blur-xl border border-white/10 shadow-2xl transition-all duration-500 group-hover:bg-black/90 flex flex-col md:flex-row items-start md:items-end justify-between gap-8">
+                <div>
+                  <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-3 block">Consulting</span>
+                  <h3 className="font-display text-3xl text-white mb-4">E3 Global Zone</h3>
+                  <p className="text-white/70 text-sm leading-relaxed max-w-sm">High-level strategic consulting and business advisory for organizations looking to scale and dominate their markets.</p>
+                </div>
+                {/* Same logo used for both themes as requested */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-10 w-auto object-contain" />
               </div>
             </a>
 
