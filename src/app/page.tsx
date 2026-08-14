@@ -8,26 +8,26 @@ export default function HomePage() {
     <>
       {/* Hero Section */}
       {/* Hero Section */}
-      <section className="relative h-[100dvh] min-h-[700px] w-full flex items-center justify-center overflow-hidden bg-background">
+      <section className="relative h-[100dvh] min-h-[700px] w-full flex items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <img src="/assets/hero.jpg" className="w-full h-full object-cover opacity-100 dark:opacity-60 transition-opacity duration-400" alt="Hero Architecture" />
+          <img src="/assets/hero.jpg" className="w-full h-full object-cover opacity-60 transition-opacity duration-400" alt="Hero Architecture" />
         </div>
         <AnimatedStaggerParent delay={0.2} className="relative z-10 text-center px-6 max-w-5xl mx-auto flex flex-col items-center">
           <AnimatedStaggerChild>
-            <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400">
+            <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-white mb-8 transition-colors duration-400">
               E3 Strategic <br /> <span className="font-display-italic text-primary">Ventures.</span>
             </h1>
           </AnimatedStaggerChild>
           <AnimatedStaggerChild>
-            <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed mb-12 transition-colors duration-400">
+            <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed mb-12 transition-colors duration-400">
               Consulting, coaching, media, and education working in synergy to accelerate business transformation and unlock human potential.
             </p>
           </AnimatedStaggerChild>
           <AnimatedStaggerChild className="flex flex-col sm:flex-row gap-6">
-            <Link href="#group" className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-xs font-medium uppercase tracking-widest rounded-full hover:bg-foreground hover:text-background transition-all duration-300">
+            <Link href="#group" className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground text-xs font-medium uppercase tracking-widest rounded-full hover:bg-white hover:text-black transition-all duration-300">
               Explore Our Group
             </Link>
-            <Link href="/about" className="inline-flex items-center justify-center px-8 py-4 bg-transparent border border-border text-foreground text-xs font-medium uppercase tracking-widest rounded-full hover:border-foreground transition-all duration-300">
+            <Link href="/about" className="inline-flex items-center justify-center px-8 py-4 bg-transparent border border-white/20 text-white text-xs font-medium uppercase tracking-widest rounded-full hover:border-white transition-all duration-300">
               Our Vision
             </Link>
           </AnimatedStaggerChild>
