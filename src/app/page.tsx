@@ -86,9 +86,9 @@ export default function HomePage() {
                   <h3 className="font-display text-3xl text-white mb-4">E3 Global Zone</h3>
                   <p className="text-white/70 text-sm leading-relaxed max-w-sm">High-level strategic consulting and business advisory for organizations looking to scale and dominate their markets.</p>
                 </div>
-                {/* Same logo used for both themes as requested */}
+                {/* Using logo-black.png (white text) because the card has a dark overlay in both light and dark themes */}
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/logo-white.png" alt="E3 Strategic Ventures" className="h-10 w-auto object-contain" />
+                <img src="/assets/logo-black.png" alt="E3 Strategic Ventures" className="h-10 w-auto object-contain" />
               </div>
             </a>
 

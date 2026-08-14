@@ -6,4 +6,4 @@
 :HL["/assets/about-hero.jpg","image"]
 :HL["/assets/riyas-about.png","image"]
 :HL["/assets/about-culture.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"about","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"w6yp-C8tqh0C3X2-x_62c"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"about","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"nZ3Rs6CXoiLHupMIKw2rS"}

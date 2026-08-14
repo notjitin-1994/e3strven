@@ -9,4 +9,4 @@
 :HL["/assets/riyas-hakkim.jpeg","image"]
 :HL["/assets/media-bg.jpg","image"]
 :HL["/assets/bg-education.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"w6yp-C8tqh0C3X2-x_62c"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"nZ3Rs6CXoiLHupMIKw2rS"}
