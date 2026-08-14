@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedSection, AnimatedStaggerParent, AnimatedStaggerChild } from "@/components/animated-section";
+import { E3MediaLogo } from "@/components/e3-media-logo";
 
 export default function HomePage() {
   return (
@@ -85,10 +86,10 @@ export default function HomePage() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/assets/bg-consulting.jpg" alt="Consulting" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 dark:opacity-80" />
               </div>
-              <div className="relative z-10 mt-auto w-full md:w-auto p-6 md:p-8 rounded-2xl bg-background/80 dark:bg-background/50 backdrop-blur-xl border border-border shadow-2xl transition-all duration-500 group-hover:bg-background/95">
+              <div className="relative z-10 mt-auto w-full md:w-auto p-6 md:p-8 rounded-2xl bg-black/80 dark:bg-black/60 backdrop-blur-xl border border-white/10 shadow-2xl transition-all duration-500 group-hover:bg-black/90">
                 <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-3 block">Consulting</span>
-                <h3 className="font-display text-3xl text-foreground mb-4">E3 Strategic Ventures</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed max-w-sm">High-level strategic consulting and business advisory for organizations looking to scale and dominate their markets.</p>
+                <h3 className="font-display text-3xl text-white mb-4">E3 Global Zone</h3>
+                <p className="text-white/70 text-sm leading-relaxed max-w-sm">High-level strategic consulting and business advisory for organizations looking to scale and dominate their markets.</p>
               </div>
             </a>
 
@@ -103,10 +104,10 @@ export default function HomePage() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/assets/riyas-hakkim.jpeg" alt="Riyas Hakkim Logo" className="w-full h-full object-contain rounded-sm" />
                 </div>
-                <div className="mt-8 p-6 md:p-8 rounded-2xl bg-background/80 dark:bg-background/50 backdrop-blur-xl border border-border shadow-2xl transition-all duration-500 group-hover:bg-background/95">
+                <div className="mt-8 p-6 md:p-8 rounded-2xl bg-black/80 dark:bg-black/60 backdrop-blur-xl border border-white/10 shadow-2xl transition-all duration-500 group-hover:bg-black/90">
                   <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-3 block">Coaching</span>
-                  <h3 className="font-display text-3xl text-foreground mb-4">Riyas Hakkim</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">Transformational sales coaching and leadership development for high-performing individuals and teams.</p>
+                  <h3 className="font-display text-3xl text-white mb-4">Riyas Hakkim</h3>
+                  <p className="text-white/70 text-sm leading-relaxed max-w-xs">Transformational sales coaching and leadership development for high-performing individuals and teams.</p>
                 </div>
               </div>
             </a>
@@ -117,16 +118,13 @@ export default function HomePage() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/assets/media-bg.jpg" alt="Media" className="w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105 opacity-100 dark:opacity-80" />
               </div>
-              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-end justify-between gap-8 w-full p-6 md:p-8 rounded-2xl bg-background/80 dark:bg-background/50 backdrop-blur-xl border border-border shadow-2xl transition-all duration-500 group-hover:bg-background/95 mt-auto">
+              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-end justify-between gap-8 w-full p-6 md:p-8 rounded-2xl bg-black/80 dark:bg-black/60 backdrop-blur-xl border border-white/10 shadow-2xl transition-all duration-500 group-hover:bg-black/90 mt-auto">
                 <div>
                   <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-3 block">Media</span>
-                  <h3 className="font-display text-3xl text-foreground mb-4">E3 Media Events</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed max-w-sm">World-class digital marketing, event management, and immersive video productions.</p>
+                  <h3 className="font-display text-3xl text-white mb-4">E3 Media Events</h3>
+                  <p className="text-white/70 text-sm leading-relaxed max-w-sm">World-class digital marketing, event management, and immersive video productions.</p>
                 </div>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/e3-logo.png" alt="E3 Media" className="h-12 w-auto object-contain dark:hidden invert" />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/e3-logo-cream.png" alt="E3 Media" className="h-12 w-auto object-contain hidden dark:block" />
+                <E3MediaLogo className="h-12 w-auto" />
               </div>
             </a>
 

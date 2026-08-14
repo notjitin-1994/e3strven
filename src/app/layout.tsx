@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Manrope, Inter } from "next/font/google";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const manrope = Manrope({
+  variable: "--font-manrope",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
   display: "swap",
 });
@@ -20,10 +26,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet" />
-      </head>
-      <body className={`${montserrat.variable} bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-white overflow-x-hidden`}>
+      <body className={`${manrope.variable} ${inter.variable} bg-background text-foreground font-sans antialiased selection:bg-primary selection:text-white overflow-x-hidden`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange={false}>
           <Header />
 
@@ -50,14 +53,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div className="md:col-span-3">
                   <h4 className="text-[11px] font-medium uppercase tracking-widest text-muted-foreground mb-6">Offices</h4>
                   <address className="not-italic text-sm text-foreground/80 leading-relaxed">
-                    A1 Workspace, The Workbook<br />
-                    Tower 1, Hilite Business Park<br />
-                    Calicut, Kerala<br />
-                    India
+                    E3 Strategic Ventures L.L.P<br />
+                    A1 - The Work Book<br />
+                    Ground Floor, Tower 1<br />
+                    HiLITE City- HiLITE Business Park<br />
+                    Kozhikode, Kerala, India<br />
+                    Pincode - 673014
                   </address>
                   <div className="mt-6 space-y-2 text-sm text-foreground/80">
                     <p><a href="mailto:Info@e3strategicventures.com" className="hover:text-primary transition-colors">Info@e3strategicventures.com</a></p>
-                    <p><a href="tel:+917907089069" className="hover:text-primary transition-colors">+91 79070 89069</a></p>
+                    <p><a href="tel:+917592022030" className="hover:text-primary transition-colors">+91 75920 22030</a></p>
                   </div>
                 </div>
 

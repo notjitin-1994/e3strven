@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero: Photographic Editorial Header */}
-      <section className="relative h-[80dvh] min-h-[600px] w-full flex items-end pb-24 overflow-hidden bg-background">
+      <section className="relative h-[80dvh] min-h-[600px] w-full flex items-end pb-24 overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/assets/about-hero.jpg" alt="Corporate Architecture" className="w-full h-full object-cover opacity-100 dark:opacity-60 transition-opacity duration-400" />
@@ -12,20 +12,20 @@ export default function AboutPage() {
         
         {/* Diffused Ambient Glow */}
         <div className="absolute inset-0 flex items-end justify-center pointer-events-none z-0 pb-24">
-           <div className="w-[90vw] h-[60vh] bg-background/90 dark:bg-background/70 blur-[120px] rounded-[100%]" />
+           <div className="w-[90vw] h-[60vh] bg-black/80 dark:bg-black/70 blur-[120px] rounded-[100%]" />
         </div>
         <div className="relative z-10 w-full">
           <AnimatedStaggerParent delay={0.1} className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row md:items-end justify-between gap-8">
             <div className="md:w-2/3">
               <AnimatedStaggerChild className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">Our Identity</AnimatedStaggerChild>
               <AnimatedStaggerChild>
-                <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-[1.05] tracking-tight text-foreground transition-colors duration-400">
+                <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium leading-[1.05] tracking-tight text-white transition-colors duration-400">
                   Architects of<br />Human Potential.
                 </h1>
               </AnimatedStaggerChild>
             </div>
             <AnimatedStaggerChild className="md:w-1/3">
-              <p className="text-muted-foreground text-lg leading-relaxed">
+              <p className="text-white/70 text-lg leading-relaxed">
                 We are a syndicate of specialized agencies scaling the philosophy of emotional connection across global markets.
               </p>
             </AnimatedStaggerChild>
@@ -38,20 +38,25 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 relative z-10">
           <div className="border-t border-border pt-12 flex flex-col">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">01 &mdash; Vision</span>
-            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground transition-colors duration-400">
-              The Global Benchmark.
-            </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed transition-colors duration-400">
-              To be the global benchmark in transforming organizational culture, redefining leadership through emotional intelligence, and building human-centric ecosystems that drive sustainable, exponential growth.
-            </p>
+            <div className="space-y-6 text-foreground/80 leading-relaxed transition-colors duration-400">
+              <p>
+                <strong className="text-foreground font-display">1) Empower</strong> &mdash; empowering individuals and brands to unleash their potential
+              </p>
+              <p>
+                <strong className="text-foreground font-display">2) Elevate</strong> &mdash; elevate your skillset, mindset, heartset and presence
+              </p>
+              <p>
+                <strong className="text-foreground font-display">3) Excel</strong> &mdash; excel beyond expectation with our dynamic and result-driven approach
+              </p>
+            </div>
           </div>
           <div className="border-t border-border pt-12 flex flex-col">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">02 &mdash; Mission</span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl mb-8 text-foreground transition-colors duration-400">
-              Harmonizing Connection.
+              Vessels of Purpose.
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed transition-colors duration-400">
-              To empower leaders, teams, and enterprises by delivering world-class consulting, coaching, and strategic media solutions that harmonize emotional connection with measurable business performance.
+              To design and deliver meaningful media and purposeful events by blending strategy, creativity, and emotional intelligence. A world where media and events move beyond noise to become vessels of purpose.
             </p>
           </div>
         </div>
@@ -91,18 +96,18 @@ export default function AboutPage() {
       </AnimatedSection>
 
       {/* The Culture Boardroom */}
-      <AnimatedSection className="relative py-24 sm:py-32 md:py-48 bg-background transition-colors duration-400 border-b border-border overflow-hidden">
+      <AnimatedSection className="relative py-24 sm:py-32 md:py-48 bg-black transition-colors duration-400 border-b border-border overflow-hidden">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/assets/about-culture.jpg" alt="Leadership Boardroom" className="w-full h-full object-cover opacity-100 dark:opacity-60 transition-all duration-1000" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6">
-          <div className="max-w-xl p-8 md:p-12 rounded-3xl bg-background/80 dark:bg-background/60 backdrop-blur-xl border border-border shadow-2xl transition-all duration-500">
+          <div className="max-w-xl p-8 md:p-12 rounded-3xl bg-black/80 dark:bg-black/60 backdrop-blur-xl border border-white/10 shadow-2xl transition-all duration-500">
             <span className="text-[11px] font-medium uppercase tracking-[0.2em] text-primary mb-6 block">Our Culture</span>
-            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground mb-8 transition-colors duration-400">
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-white mb-8 transition-colors duration-400">
               Driven by collective intelligence.
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed">
+            <p className="text-white/70 text-lg leading-relaxed">
               Behind every strategy and framework is a team of specialized operators who have scaled real businesses. We don't just advise; we architect and execute alongside you.
             </p>
           </div>

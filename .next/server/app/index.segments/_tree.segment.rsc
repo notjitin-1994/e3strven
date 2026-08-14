@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/1n0mxugpxvoxc.css","style"]
-:HL["/_next/static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap","style"]
+:HL["/_next/static/chunks/1gfeqd1wu9-zv.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/a343f882a40d2cc9-s.p.1sj6eobyi31rd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/assets/logo-white.png","image"]
 :HL["/assets/logo-black.png","image"]
 :HL["/assets/hero.jpg","image"]
@@ -8,7 +8,5 @@
 :HL["/assets/riyas-portfolio.png","image"]
 :HL["/assets/riyas-hakkim.jpeg","image"]
 :HL["/assets/media-bg.jpg","image"]
-:HL["/assets/e3-logo.png","image"]
-:HL["/assets/e3-logo-cream.png","image"]
 :HL["/assets/bg-education.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"nMOzOduo8rtcwNWF9CJVs"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"zH1ivPJAAX7Z9l8KzUUpb"}
