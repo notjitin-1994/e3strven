@@ -99,7 +99,7 @@ export default function HomePage() {
                 <img src="/assets/riyas-portfolio.png" alt="Riyas Hakkim Background" className="w-full h-full object-cover transition-transform duration-700 md:group-hover:scale-105 opacity-100 dark:opacity-80" />
               </div>
               <div className="relative z-10 flex flex-col h-full justify-between">
-                <div className="h-16 w-16 md:h-20 md:w-20 rounded-lg bg-[#000000] border border-white/10 shadow-xl p-3 flex items-center justify-center md:grayscale md:group-hover:grayscale-0 transition-all duration-500">
+                <div className="h-16 w-16 md:h-20 md:w-20 rounded-lg bg-[#000000] border border-white/10 shadow-xl p-3 flex items-center justify-center transition-all duration-500">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/assets/riyas-hakkim.jpeg" alt="Riyas Hakkim Logo" className="w-full h-full object-contain rounded-sm" />
                 </div>

@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0d0dlmd018cpx.css","style"]
+:HL["/_next/static/chunks/2ps6n901doro9.css","style"]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/a343f882a40d2cc9-s.p.1sj6eobyi31rd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/assets/logo-white.png","image"]
@@ -9,4 +9,4 @@
 :HL["/assets/riyas-hakkim.jpeg","image"]
 :HL["/assets/media-bg.jpg","image"]
 :HL["/assets/bg-education.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"bxnFI92fLwxz_bJMiCNmb"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"t0hHyfu6QqdWN9wobOG_P"}
