@@ -12,11 +12,6 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0">
           <img src="/assets/hero.jpg" className="w-full h-full object-cover opacity-100 dark:opacity-60 transition-opacity duration-400" alt="Hero Architecture" />
         </div>
-        
-        {/* Diffused Ambient Glow for Text Legibility */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-           <div className="w-[80vw] h-[60vh] max-w-4xl bg-background/80 dark:bg-background/60 blur-[120px] rounded-full" />
-        </div>
         <AnimatedStaggerParent delay={0.2} className="relative z-10 text-center px-6 max-w-5xl mx-auto flex flex-col items-center">
           <AnimatedStaggerChild>
             <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl tracking-tight leading-[0.9] text-foreground mb-8 transition-colors duration-400">
